@@ -1,0 +1,7 @@
+list_test = [1, 2, 3, 4, 5]
+def test(_list, a):
+    list_test.append(a)
+
+for i in list_test:
+    print(i)
+    test(list_test, i + 1)
